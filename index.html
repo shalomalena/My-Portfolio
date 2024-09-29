@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to your CSS file -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to the Poppins font -->
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"> Shalom <span> Lencha </span> </a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">about</a>
+        <a href="#experience">experience</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Shalom</span></h1>
+        <h3><span>Aspiring Software Engineer</span></h3>
+        <p>
+          I am a sophomore Computer Science student with a strong foundation in
+          software development, data structures, and algorithms. Passionate
+          about building impactful solutions, I am eager to apply my skills to
+          develop innovative technologies that improve everyday life and drive
+          positive change in the tech industry.
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/shalomalena" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/shalom-lencha-6554422a7/"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="mailto:slencha@brynmawr.edu">
+            <i class="bx bxs-envelope"></i>
+          </a>
+          <a href="https://www.instagram.com/habil_alena/">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="image.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading">About <span> Me</span></h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content hover-content">
+            <h3>About</h3>
+
+            <p>
+              I am passionate about leveraging technology to solve real-world
+              problems and drive positive change. My journey from Ethiopia have
+              fueled a strong desire to create impactful solutions, using my
+              skills to tackle challenges and contribute to innovations that
+              improve lives.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content hover-content">
+            <h3>Education</h3>
+
+            <p>Bryn Mawr College 2027</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date"></div>
+          <div class="timeline-content hover-content">
+            <h3>Skills</h3>
+
+            <p>
+              <i class="bx bxl-python"></i>
+              <i class="bx bxl-java"></i>
+              <i class="bx bxl-javascript"></i>
+              <i class="bx bxl-html5"></i>
+              <i class="bx bxl-react"></i>
+              <i class="bx bxl-css3"></i>
+              <i class="bx bxl-tailwind-css"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="heading">Experience</h2>
+      <div class="experience-container">
+        <div class="experience-box">
+          <div class="experience-info">
+            <i class="bx bxs-devices"></i>
+            <h4>IT Systems Assistant</h4>
+            <p>
+              As an IT Systems Assistant at Wolaita Liqa School, I implemented
+              SQL-based relational databases to modernize over 1,000 student
+              records, transitioning from paper to digital. This improved the
+              school’s data management system and increased operational
+              efficiency by 10%.
+            </p>
+          </div>
+        </div>
+        <div class="experience-box">
+          <div class="experience-info">
+            <i class="bx bx-code"></i>
+            <h4>Lab Monitor</h4>
+            <p>
+              As a Lab Monitor, I assist students with troubleshooting lab
+              machines and tools like GitHub and VS Code. I help them during lab
+              sessions to ensure they complete their assignments. Additionally,
+              I conduct TA hours to provide further support with programming
+              concepts.
+            </p>
+          </div>
+        </div>
+        <div class="experience-box">
+          <div class="experience-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>ALX Student Fellow</h4>
+            <p>
+              As a student fellow in ALX Ethiopia, I gained practical experience
+              in Python, improving my coding and problem-solving skills through
+              hands-on exercises. I successfully developed a Hangman game,
+              further enhancing my technical proficiency.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Selected <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Her Story Blog Webapp</h4>
+            <p>
+              A Django-powered web application designed to raise awareness about
+              abuse by sharing real-life stories of abused women, allowing
+              others to learn from their untold experiences. The platform offers
+              dynamic content management. Built with Django for the backend, and
+              HTML, CSS for the frontend, the app provides an intuitive admin
+              panel for seamless content updates.
+            </p>
+            <a href="https://github.com/shalomalena/Her-Story" target="_blank">
+              <i class="bx bx-link-external"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Deadline Tracker</h4>
+            <p>
+              Deadline Tracker is a web app for managing deadlines for
+              applications like internships and scholarships. Users can track
+              dates, create personalized plans, and view schedules in a to-do
+              list format. Tech Stack: Flask (Backend), HTML/CSS (Frontend),
+              SQLite (Database)
+            </p>
+            <a
+              href="https://github.com/shalomalena/Deadline-Tracker"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Crop Management Simulation</h4>
+            <p>
+              This project is built in Java, utilizing data structures like
+              Binary Search Trees, stacks, and queues to handle tasks such as
+              buying, selling, and managing crops. It demonstrates resource
+              management, task scheduling, and efficient handling of farming
+              operations through robust algorithmic implementations
+            </p>
+            <a
+              href="https://github.com/shalomalena/Crop-Management-Simulation"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone" />
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="input-group2">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/shalomalena" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/shalom-lencha-6554422a7/"
+          target="_blank"
+        >
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="mailto:slencha@brynmawr.edu">
+          <i class="bx bxs-envelope"></i>
+        </a>
+        <a href="https://www.instagram.com/habil_alena/">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+      </div>
+
+      <p class="copyright">@ Shalom Lencha | All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
