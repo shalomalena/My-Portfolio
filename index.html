@@ -22,9 +22,9 @@
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
-        <a href="#about">about</a>
-        <a href="#experience">experience</a>
-        <a href="#portfolio">portfolio</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -34,11 +34,11 @@
         <h1>Hi, I'm <span>Shalom</span></h1>
         <h3><span>Aspiring Software Engineer</span></h3>
         <p>
-          I am a sophomore Computer Science and Mathematics student with a strong foundation in
-          software development, data structures, and algorithms. Passionate
-          about building impactful solutions, I am eager to apply my skills to
-          develop innovative technologies that improve everyday life and drive
-          positive change in the tech industry.
+          I am a sophomore Computer Science and Mathematics student with a
+          strong foundation in software development, data structures, and
+          algorithms. Passionate about building impactful solutions, I am eager
+          to apply my skills to develop innovative technologies that improve
+          everyday life and drive positive change in the tech industry.
         </p>
         <div class="social-icons">
           <a href="https://github.com/shalomalena" target="_blank">
@@ -118,16 +118,19 @@
 
     <section class="experience" id="experience">
       <h2 class="heading">Experience</h2>
+      <div class="experience-container">
         <div class="experience-box">
           <div class="experience-info">
-            <i class="bx bx-code-curly"></i>
-            <h4>INFOCUS</h4>
+            <i class="bx bxs-devices"></i>
+            <h4>INFOCUS Jane Street Fellow</h4>
             <p>
-              Created an interactive Snake game in OCaml as part of a selective software development 
-              program at Jane Street, demonstrating proficiency in functional programming and game 
-              logic implementation. Developed a sophisticated trading bot in Python that autonomously
-              executes trades on a simulated exchange,implementing algorithmic strategies to optimize 
-              portfolio performance.
+              Created an interactive Snake game in OCaml as part of a selective
+              software development program at Jane Street, demonstrating
+              proficiency in functional programming and game logic
+              implementation. Developed a sophisticated trading bot in Python
+              that autonomously executes trades on a simulated
+              exchange,implementing algorithmic strategies to optimize portfolio
+              performance.
             </p>
           </div>
         </div>
@@ -136,45 +139,45 @@
             <i class="bx bx-code"></i>
             <h4>Teaching Assistance</h4>
             <p>
-              As a Teaching Assistance, I assist students with troubleshooting lab
-              machines and tools like GitHub and VS Code. I help them during lab
-              sessions to ensure they complete their assignments. Additionally,
-              I conduct TA hours to provide further support with programming
-              concepts.
+              As a Teaching Assistance, I assist students with troubleshooting
+              lab machines and tools like GitHub and VS Code. I help them during
+              lab sessions to ensure they complete their assignments.
+              Additionally, I conduct TA hours to provide further support with
+              programming concepts.
             </p>
           </div>
         </div>
-      <div class="experience-container">
         <div class="experience-box">
           <div class="experience-info">
-            <i class="bx bxs-devices"></i>
+            <i class="bx bx-code-curly"></i>
             <h4>Data Migration intern</h4>
             <p>
-              As an Intern at Wolaita Liqa School, I Led the transformation 
-              of the school’s data, systems, and records by designing and implementing relational 
-              databases using SQL. This initiative centralized student and financial data, enabling 
-              efficient record-keeping and cloud-based data management.
-
-              efficiency by 10%.
+              As an Intern at Wolaita Liqa School, I Led the transformation of
+              the school’s data, systems, and records by designing and
+              implementing relational databases using SQL. This initiative
+              centralized student and financial data, enabling efficient
+              record-keeping and cloud-based data management.
             </p>
           </div>
         </div>
+      </div>
     </section>
 
     <section class="portfolio" id="portfolio">
       <h2 class="heading">Selected <span>Projects</span></h2>
+
       <div class="portfolio-container">
         <div class="portfolio-box">
           <img src="portfolio1.jpg" alt="" />
           <div class="portfolio-layer">
-            <h4>Her Story Blog Webapp</h4>
+            <h4>TravelTogether</h4>
             <p>
-              A Django-powered web application designed to raise awareness about
-              abuse by sharing real-life stories of abused women, allowing
-              others to learn from their untold experiences. The platform offers
-              dynamic content management. Built with Django for the backend, and
-              HTML, CSS for the frontend, the app provides an intuitive admin
-              panel for seamless content updates.
+              Developed a full-stack travel itinerary planner using React
+              (TypeScript) for the frontend and Flask (Python) for the backend,
+              enabling seamless trip organization and user data management.
+              Implemented a dynamic location search feature with Google Places
+              API and OpenStreetMap, integrating real-time autocomplete for
+              enhanced user experience.
             </p>
             <a href="https://github.com/shalomalena/Her-Story" target="_blank">
               <i class="bx bx-link-external"></i> View on GitHub
@@ -185,13 +188,14 @@
         <div class="portfolio-box">
           <img src="portfolio2.jpg" alt="" />
           <div class="portfolio-layer">
-            <h4>Deadline Tracker</h4>
+            <h4>OutfitPal</h4>
             <p>
-              Deadline Tracker is a web app for managing deadlines for
-              applications like internships and scholarships. Users can track
-              dates, create personalized plans, and view schedules in a to-do
-              list format. Tech Stack: Flask (Backend), HTML/CSS (Frontend),
-              SQLite (Database)
+              Built an AI-powered personal styling iOS app using SwiftUI,
+              integrating OpenAI Assistants for real-time outfit recommendations
+              based on wardrobe, weather, and user preferences. Designed a
+              scalable cloud backend with Firebase Firestore and Cloud
+              Functions, optimizing wardrobe manage- ment and AI-driven styling
+              insights with sub-500ms query response times
             </p>
             <a
               href="https://github.com/shalomalena/Deadline-Tracker"
@@ -205,13 +209,14 @@
         <div class="portfolio-box">
           <img src="portfolio3.jpg" alt="" />
           <div class="portfolio-layer">
-            <h4>Crop Management Simulation</h4>
+            <h4>Trading Bot</h4>
             <p>
-              This project is built in Java, utilizing data structures like
-              Binary Search Trees, stacks, and queues to handle tasks such as
-              buying, selling, and managing crops. It demonstrates resource
-              management, task scheduling, and efficient handling of farming
-              operations through robust algorithmic implementations
+              Designed and implemented an algorithmic trading bot using Python
+              that efficiently executes market-making strategies for BOND,
+              dynamically adjusting orders based on position limits and market
+              conditions. Built a stateful order management system that
+              dynamically tracks open orders, processes real-time exchange
+              messages, and adjusts trade execution based on market conditions.
             </p>
             <a
               href="https://github.com/shalomalena/Crop-Management-Simulation"
